@@ -49,7 +49,7 @@ zfs mount
 
 Add startup configs for vm-bhyve.
 
-*** /etc/rc.conf ***
+***/etc/rc.conf***
 
 ```conf
 ...
@@ -94,7 +94,7 @@ pciconf -l|awk '
 '
 ```
 
-Added these lines to *** /boot/loader.conf *** 
+Added these lines to ***/boot/loader.conf*** 
 ```conf
 ...
 hw.vtnet.csum_disable="1"
